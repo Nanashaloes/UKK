@@ -19,13 +19,13 @@ Aplikasi ini dibangun menggunakan Laravel 12, Livewire Starterkits, dan Filament
 - [Filament Shield](https://github.com/ryangjchandler/filament-shield)
 ## Instalasi
 
-Livewire Starterkit menggunakan NodeJS untuk development. Jadi perhatikan ya... :)
+Livewire Starterkit menggunakan NodeJS
 
 1. Clone repositori:
 
 ```bash
 git clone -b main --single-branch https://github.com/Nanashaloes/UKK.git
-cd project_pkl_fullstack
+cd UKK
 ```
 Clone yang branch  main --> sudah teruji.
 
