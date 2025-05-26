@@ -52,8 +52,14 @@ php artisan shield:generate
 php artisan serve
 npm run dev
 ```
-
-6. Jika ingin deploy, build dulu:
+6. upload seeder
+```bash
+php artisan db:seed --class=UserGuruSeeder
+php artisan db:seed --class=UserSiswaSeeder
+php artisan db:seed --class=GuruSeeder
+php artisan db:seed --class=SiswaSeeder    
+```
+7. Jika ingin deploy, build dulu:
 ```bash
 npm run build
 ```
