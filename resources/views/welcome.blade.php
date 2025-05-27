@@ -166,7 +166,7 @@
                 <!-- Main image with glass container -->
                 <div class="relative z-10 rounded-2xl p-2 glass-effect shadow-xl hidden lg:block">
                     <div class="animate-float">
-                        <img src="http://localhost:8000/space.png" alt="SijaSpace Illustration" class=" rounded-xl max-w-full h-auto z-10 relative">
+                        <img src="{{ asset('space.png') }}" alt="SijaSpace Illustration" class="rounded-xl max-w-full h-auto z-10 relative">
                     </div>
                     
                     <!-- Decorative gradient cards -->
