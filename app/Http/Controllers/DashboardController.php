@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Siswa;
 use App\Models\Guru;
 use App\Models\Industri;
-use App\Models\Pkl;
+use App\Models\PKL;
 use Illuminate\Http\Request;
 
 class DashboardController extends Controller
@@ -42,7 +42,7 @@ class DashboardController extends Controller
             ];
         }
 
-        $pkls = Pkl::latest()->take(5)->get();
+        $pkls = PKL::latest()->take(5)->get();
         foreach ($pkls as $pkl) {
             $aktivitas[] = [
                 'nama' => optional($pkl->siswa)->nama ?? 'Siswa tidak ditemukan',
